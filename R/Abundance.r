@@ -73,6 +73,9 @@ Abun_Mix <- function(data, knots = 10, size = NULL ){
   data1<-data1mn$data1
   m<-data1mn$m
   n<-data1mn$n
+  n1<-n[1]
+  n2<-n[2]
+  
   
   x1<-data1[,1]
   x2<-data1[,2]

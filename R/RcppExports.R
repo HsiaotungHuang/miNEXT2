@@ -2,58 +2,58 @@
 # Generator token: 10BE3573-1514-4C36-9D1C-5A225CD40393
 
 Hypergeometric <- function(K, k, N, n) {
-    .Call(`_miNEXT2_Hypergeometric`, K, k, N, n)
+    .Call('_miNEXT2_Hypergeometric', PACKAGE = 'miNEXT2', K, k, N, n)
 }
 
 fk <- function(k1, k2, m1, m2, x1, y1) {
-    .Call(`_miNEXT2_fk`, k1, k2, m1, m2, x1, y1)
+    .Call('_miNEXT2_fk', PACKAGE = 'miNEXT2', k1, k2, m1, m2, x1, y1)
 }
 
 D_share <- function(xi, yi, m1, m2, q) {
-    .Call(`_miNEXT2_D_share`, xi, yi, m1, m2, q)
+    .Call('_miNEXT2_D_share', PACKAGE = 'miNEXT2', xi, yi, m1, m2, q)
 }
 
 h0_hat_cpp <- function(pi1, pi2, m1, m2s, n1, n2) {
-    .Call(`_miNEXT2_h0_hat_cpp`, pi1, pi2, m1, m2s, n1, n2)
+    .Call('_miNEXT2_h0_hat_cpp', PACKAGE = 'miNEXT2', pi1, pi2, m1, m2s, n1, n2)
 }
 
 h1_hat_cpp <- function(pi1, pi2, xi1, xi2, m1, m2, n1, n2) {
-    .Call(`_miNEXT2_h1_hat_cpp`, pi1, pi2, xi1, xi2, m1, m2, n1, n2)
+    .Call('_miNEXT2_h1_hat_cpp', PACKAGE = 'miNEXT2', pi1, pi2, xi1, xi2, m1, m2, n1, n2)
 }
 
 un_abun <- function(xi, n, m) {
-    .Call(`_miNEXT2_un_abun`, xi, n, m)
+    .Call('_miNEXT2_un_abun', PACKAGE = 'miNEXT2', xi, n, m)
 }
 
 sh_abun <- function(xi1, xi2, n1, m1, n2, m2) {
-    .Call(`_miNEXT2_sh_abun`, xi1, xi2, n1, m1, n2, m2)
+    .Call('_miNEXT2_sh_abun', PACKAGE = 'miNEXT2', xi1, xi2, n1, m1, n2, m2)
 }
 
 fk_inc <- function(k1, k2, T1, T2, t1, t2, x1, y1) {
-    .Call(`_miNEXT2_fk_inc`, k1, k2, T1, T2, t1, t2, x1, y1)
+    .Call('_miNEXT2_fk_inc', PACKAGE = 'miNEXT2', k1, k2, T1, T2, t1, t2, x1, y1)
 }
 
 D0_rare <- function(xi, yi, t1, t2) {
-    .Call(`_miNEXT2_D0_rare`, xi, yi, t1, t2)
+    .Call('_miNEXT2_D0_rare', PACKAGE = 'miNEXT2', xi, yi, t1, t2)
 }
 
 h0_hat_inci <- function(pi1, pi2, t1, t2, T1, T2) {
-    .Call(`_miNEXT2_h0_hat_inci`, pi1, pi2, t1, t2, T1, T2)
+    .Call('_miNEXT2_h0_hat_inci', PACKAGE = 'miNEXT2', pi1, pi2, t1, t2, T1, T2)
 }
 
 h1_hat_inci <- function(pi1, pi2, yi1, yi2, t1, t2, T1, T2) {
-    .Call(`_miNEXT2_h1_hat_inci`, pi1, pi2, yi1, yi2, t1, t2, T1, T2)
+    .Call('_miNEXT2_h1_hat_inci', PACKAGE = 'miNEXT2', pi1, pi2, yi1, yi2, t1, t2, T1, T2)
 }
 
 un_inci <- function(yi, T, t) {
-    .Call(`_miNEXT2_un_inci`, yi, T, t)
+    .Call('_miNEXT2_un_inci', PACKAGE = 'miNEXT2', yi, T, t)
 }
 
 sh_inci <- function(yi1, yi2, T1, t1, T2, t2) {
-    .Call(`_miNEXT2_sh_inci`, yi1, yi2, T1, t1, T2, t2)
+    .Call('_miNEXT2_sh_inci', PACKAGE = 'miNEXT2', yi1, yi2, T1, t1, T2, t2)
 }
 
 rcpp_hello_world <- function() {
-    .Call(`_miNEXT2_rcpp_hello_world`)
+    .Call('_miNEXT2_rcpp_hello_world', PACKAGE = 'miNEXT2')
 }
 
